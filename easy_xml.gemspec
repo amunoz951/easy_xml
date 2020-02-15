@@ -14,5 +14,5 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['LICENSE', 'lib/**/*']
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'nokogiri', '~> 1'
 end
